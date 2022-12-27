@@ -189,21 +189,21 @@ class SlotMachine:
         # Save the wildcard number as spinned_result
         spinned_result = random.randint(0, 100)
         # 확률
-        if spinned_result in range(0, 40):     # 40% Chance
+        if spinned_result in range(0, 45):     # 40% Chance 45
             self.results[spin] = self.icons[0].name
-        elif spinned_result in range(40, 56):  # 16% Chance
+        elif spinned_result in range(45, 75):  # 16% Chance 30
             self.results[spin] = self.icons[1].name
-        elif spinned_result in range(56, 70):  # 14% Chance
+        elif spinned_result in range(75, 90):  # 14% Chance 15
             self.results[spin] = self.icons[2].name
-        elif spinned_result in range(70, 82):  # 12% Chance
+        elif spinned_result in range(90, 100):  # 12% Chance 10
             self.results[spin] = self.icons[3].name
-        elif spinned_result in range(82, 89):  # 7% Chance
+        elif spinned_result in range(100, 100):  # 7% Chance
             self.results[spin] = self.icons[4].name
-        elif spinned_result in range(89, 95):  # 6% Chance
+        elif spinned_result in range(100, 100):  # 6% Chance
             self.results[spin] = self.icons[5].name
-        elif spinned_result in range(95, 99):  # 4% Chance
+        elif spinned_result in range(100, 100):  # 4% Chance
             self.results[spin] = self.icons[6].name
-        elif spinned_result in range(99, 100):  # 1% Chance
+        elif spinned_result in range(100, 100):  # 1% Chance
             self.results[spin] = self.icons[7].name
 
       # Check what does the result of the calculation rewards.
